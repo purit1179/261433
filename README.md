@@ -2,7 +2,7 @@
 
 ## Course Overview
 
-This course introduces the concepts of network programming and also its practical detail to students. Network programming integrates the concept of software development and data communication where the main focus is how to send data between two point effienciently and securely. The current course focuses on client/server model, a de-facto model on network programming, with TCP/IP stacks. The course consists on lecturers and a series of hand-on programming homework
+This course introduces the concepts of network programming and also its practical detail to students. Network programming integrates the concept of software development and data communication where the main focus is how to send data between two point effienciently and securely. The current course focuses on client/server model, a de-facto model on network programming, with TCP/IP stacks. The second part of the course will focus on mobile client, both implemented with web technology and native mobile technology. The course consists on lecturers and a series of hand-on programming homework
 
 ## Course Learning Objectives
 1. Explain the concepts in network programming
