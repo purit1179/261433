@@ -79,6 +79,7 @@ We expect our students to conduct themselves professionally, at least, for the f
 - Taking personal responsibility for class prerequisites and coming to class prepared
 - Taking personal responsibility for scheduling and managing the homework
 - Treating others in a respectful manner
+- Plagiarism is not acceptable in any cases
 - Accepting things you cannot change, working respectfully within the system to change things you can, and choosing your battles wisely
 
 ## Attendance including Active & Enthusiastic Participation
