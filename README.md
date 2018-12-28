@@ -36,6 +36,9 @@ This course introduces the concepts of network programming and also its practica
 **Week 7: DNS, Address Tranlation, NAT, Daemon Process, Super Server**
 - TBA
 
+**Midterm exam**
+- TBA
+
 **Week 8: Multi-thread Programming**
 - TBA
 
@@ -57,9 +60,8 @@ This course introduces the concepts of network programming and also its practica
 **Week 14: Android Client, part 3**
 - TBA
 
-**Week 15: Android Client, part 4**
+**Final exam**
 - TBA
-
 # Required and Recommended Textbooks
 ## Required Textbooks
 1. TCP/IP Illustrated, Vol. 1: The Protocols, W. Richard Stevens, Addison-Wesley, 1994
