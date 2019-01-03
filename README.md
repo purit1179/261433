@@ -114,17 +114,17 @@ We expect our students to conduct themselves professionally, at least, for the f
     
 ## Exams
 - Midterm exam
-  - Cover the content of week 1 - 8
+  - Cover the content of week 1 - 7
   - Count 40% toward final score
 - Final exam
-  - Cover the content of week 9 - 15
+  - Cover the content of week 8 - 14
   - Count 40% toward final score
    
 ## Semester Letter Grade Rubrics
 
  | Grade        | Rubrics           |
  | ---          | ---               |
- | A            | <ul><li> Professional conduct</li><li> Attendance (or make ups) in all 15 classes</li><li> All 8 assignments submitted with a reasonable attempt</li><li> The average of the highest 7 of 8 assignments should be 9.5 or higher</li><li> Obtain at least 35% of midterm and final exam score</li><li> Top 5 in both midterm and final exam</li><li> Completed the course</li></ul> |
+ | A            | <ul><li> Professional conduct</li><li> Attendance (or make ups) in all 15 classes</li><li> All 8 assignments submitted with a reasonable attempt</li><li> The average of the highest 7 of 8 assignments should be 9.0 or higher</li><li> Obtain at least 35% of midterm and final exam score</li><li> Top 5 in both midterm and final exam</li><li> Completed the course</li></ul> |
  | B+           | <ul><li> Professional conduct</li><li> Attendance (or make ups) in all 15 classes</li><li> All 8 assignments submitted with a reasonable attempt</li><li> The average of the highest 7 of 8 assignments should be 8.5 or higher</li><li> Obtain at least 30% of midterm and final exam score</li><li> Top 10 in both midterm and final exam</li><li> Completed the course</li></ul> |          
  | B            | <ul><li> Professional conduct</li><li> Attendance (or make ups) in all 15 classes</li><li> All 8 assignments submitted with a reasonable attempt</li><li> The average of the highest 7 of 8 assignments should be 8.0 or higher</li><li> Obtain at least 30% of midterm and final exam score</li><li> Completed the course </li></ul>| 
  | C+            |<ul><li> Professional conduct</li><li> All 8 assignments submitted with a reasonable attempt</li><li>The average of the highest 7 of 8 assignments should be 7.5 or higher</li><li> Obtain at least 25% of midterm and final exam score    </li><li>Completed the course </li></ul>| 
