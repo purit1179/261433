@@ -16,13 +16,20 @@ This course introduces the concepts of network programming and also its practica
 
 # Course Topics
 **Week 1: Overview of network programming**
-- TBA
+- Slide: Week 1 Introduction
+- Network programming, what and why.
 
 **Week 2: OSI model, client/server model, protocol, handshaking**
-- TBA
+- Slide: Week 2 Model
+- OSI MOdel
+- Client/Server Model
+- Protocol: RFC, TCP/IP
+- Handshaking
 
 **Week 3: TCP connection**
-- TBA
+- Slide: Week 3 TCP
+- TCP Connection Sequence
+- Socket
 
 **Week 4: TCP TCP handshaking, retransmission**
 - TBA
