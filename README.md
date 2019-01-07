@@ -18,6 +18,7 @@ This course introduces the concepts of network programming and also its practica
 **Week 1: Overview of network programming**
 - Slide: Week 1 Introduction
 - Network programming, what and why.
+- Class Progress (7/1/2562) Slide 1 done.
 
 **Week 2: OSI model, client/server model, protocol, handshaking**
 - Slide: Week 2 Model
@@ -25,6 +26,7 @@ This course introduces the concepts of network programming and also its practica
 - Client/Server Model
 - Protocol: RFC, TCP/IP
 - Handshaking
+- Class Progress: (7/1/2562) Slide 2 page 1 - 6
 
 **Week 3: TCP connection**
 - Slide: Week 3 TCP
