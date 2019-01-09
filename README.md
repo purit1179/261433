@@ -79,8 +79,8 @@ This course introduces the concepts of network programming and also its practica
 1. Network Programming in .NET With C# and Visual Basic .NET, Fiach Reid, Elsevier, 2004
 2. C# Network Programming, Richard Blum, Sybex, 2003
 
-# Required and Recommended Reading
-TBA
+# Recommended Reading
+1. Bandwidth vs. Latecny vs. Throughput [1](https://www.ecessa.com/blog/what-are-bandwidth-latency-and-throughput-and-what-is-right-for-your-business/), [2](https://www.youtube.com/watch?v=VWxGtl5J7WM),  
 
 # Grading Rubrics
 ## Professional Conduct
