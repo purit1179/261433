@@ -14,6 +14,9 @@ This course introduces the concepts of network programming and also its practica
 2. Github account
 3. Basic knowledge on TCP/IP operation
 
+## Attendance Sheet
+[Please see it here](https://o365cmu-my.sharepoint.com/:x:/g/personal/pruet_b_cmu_ac_th/EdzaiSIoDqdHt4mk362PnGMB2DkmFc8mwBjBfodfilvhIQ?e=d8MCSo)
+
 # Course Topics
 **Week 1: Overview of network programming**
 - Slide: Week 1 Introduction
