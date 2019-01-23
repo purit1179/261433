@@ -14,15 +14,29 @@ This course introduces the concepts of network programming and also its practica
 2. Github account
 3. Basic knowledge on TCP/IP operation
 
+## Attendance Sheet
+[Please see it here](https://o365cmu-my.sharepoint.com/:x:/g/personal/pruet_b_cmu_ac_th/EdzaiSIoDqdHt4mk362PnGMB2DkmFc8mwBjBfodfilvhIQ?e=d8MCSo)
+
 # Course Topics
 **Week 1: Overview of network programming**
-- TBA
+- Slide: Week 1 Introduction
+- Network programming, what and why.
+- Class Progress (7/1/2562) Slide 1 done.
 
 **Week 2: OSI model, client/server model, protocol, handshaking**
-- TBA
+- Slide: Week 2 Model
+- OSI MOdel
+- Client/Server Model
+- Protocol: RFC, TCP/IP
+- Handshaking
+- Class Progress: (10/1/2562) Slide 2 page 1 - 6
+- Class Progress: (14/1/2562) Slide 2 page 7 - 17
+- Class Progress: (17/1/2562) Slide 2 page 18 - 29
 
 **Week 3: TCP connection**
-- TBA
+- Slide: Week 3 TCP
+- TCP Connection Sequence
+- Socket
 
 **Week 4: TCP TCP handshaking, retransmission**
 - TBA
@@ -70,8 +84,8 @@ This course introduces the concepts of network programming and also its practica
 1. Network Programming in .NET With C# and Visual Basic .NET, Fiach Reid, Elsevier, 2004
 2. C# Network Programming, Richard Blum, Sybex, 2003
 
-# Required and Recommended Reading
-TBA
+# Recommended Reading
+1. Bandwidth vs. Latecny vs. Throughput [1](https://www.ecessa.com/blog/what-are-bandwidth-latency-and-throughput-and-what-is-right-for-your-business/), [2](https://www.youtube.com/watch?v=VWxGtl5J7WM),  
 
 # Grading Rubrics
 ## Professional Conduct
@@ -89,8 +103,8 @@ We expect our students to conduct themselves professionally, at least, for the f
 
 ## Making Up Missed Classes
 - Whether excused or unexcused absence, missed classes must be made up in order to earn a grade of B or higher for the semester
-- To make up a class, students study the slide, work any in-class exercises on their own, write up an executive summary, and submit the executive summary to the instructor using a Microsoft team on email before the next class meeting start time
-- Executive Summary should be a PDF file, 1 to 1.5 pages in length, professionally formatted,12 point Calibri font, 1 inch margins, 1.08 line spacing
+- To make up a class, students study the slide, work any in-class exercises on their own, write up an executive summary, and submit the executive summary to the instructor using a CMU Elearning or email (pruet@eng.cmu.ac.th) before the next class meeting start time
+- Executive Summary should be a PDF file, 1 to 1.5 pages in length, professionally formatted,12 point font, 1 inch margins.
 
 ## Assignments
 - 8 Assignments, count as 20% toward final score
