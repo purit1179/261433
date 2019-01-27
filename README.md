@@ -32,6 +32,9 @@ This course introduces the concepts of network programming and also its practica
 - Class Progress: (7/1/2562) Slide 2 page 1 - 6
 - Class Progress: (14/1/2562) Slide 2 page 7 - 17
 - Class Progress: (17/1/2562) Slide 2 page 18 - 29
+- Class Progress: (21/1/2562) Slide 2 page 30 - 40
+- Class Progress: (24/1/2562) Slide 2 page 41 - 57
+- Assignment 1 (see elearning site)
 
 **Week 3: TCP connection**
 - Slide: Week 3 TCP
