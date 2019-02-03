@@ -213,7 +213,8 @@ namespace DNWS
               ns.Write(response.body, 0, response.body.Length);
               var mystr = requestStr.Split(Environment.NewLine);
               string browser = mystr[5].Remove(0, 12);
-              _parent.Log("Client IP: " + IPAddress.Parse (((IPEndPoint)_client.RemoteEndPoint).Address.ToString ()));
+              //from docs.microsoft.com
+              _parent.Log("Client IP: " + IPAddress.Parse (((IPEndPoint)_client.RemoteEndPoint).Address.ToString ()));  
               _parent.Log("Client Port: " + ((IPEndPoint)_client.RemoteEndPoint).Port.ToString ()); 
               _parent.Log("Browser Information: " + browser);
               _parent.Log(mystr[8]);
