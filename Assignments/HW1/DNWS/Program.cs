@@ -191,7 +191,7 @@ namespace DNWS
                 }
                 // local file
                 if(!processed) {
-                    if (request.Filename.Equals(""))
+                    if (request.Filename.Equals("clientinfo"))
                     {
                         response = getFile(ROOT + "/index.html");
                     }
@@ -211,6 +211,13 @@ namespace DNWS
             ns.Write(Encoding.UTF8.GetBytes(response.header), 0, response.header.Length);
             if(response.body != null) {
               ns.Write(response.body, 0, response.body.Length);
+              var mystr = requestStr.Split(Environment.NewLine);
+              string browser = mystr[5].Remove(0, 12);
+              _parent.Log("Client IP: " + IPAddress.Parse (((IPEndPoint)_client.RemoteEndPoint).Address.ToString ()));
+              _parent.Log("Client Port: " + ((IPEndPoint)_client.RemoteEndPoint).Port.ToString ()); 
+              _parent.Log("Browser Information: " + browser);
+              _parent.Log(mystr[8]);
+              _parent.Log(mystr[7] + Environment.NewLine);
             }
 
             // Shuting down
@@ -286,11 +293,10 @@ namespace DNWS
                     clientSocket = serverSocket.Accept();
                     // Get one, show some info
                     _parent.Log("Client accepted:" + clientSocket.RemoteEndPoint.ToString());
-                    HTTPProcessor hp = new HTTPProcessor(clientSocket, _parent);
+                    HTTPProcessor hp = new HTTPProcessor(clientSocket, _parent);                                    
                     // Single thread
                     hp.Process();
                     // End single therad
-
                 }
                 catch (Exception ex)
                 {
