@@ -9,14 +9,9 @@ namespace DNWS
 {
   class ClientInfo : IPlugin
   {
-    Socket client;
     public ClientInfo()
     {
       
-    }
-
-    void GetSocket(Socket _client){
-            client = _client;
     }
 
     public void PreProcessing(HTTPRequest request)

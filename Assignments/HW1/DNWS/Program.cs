@@ -210,15 +210,7 @@ namespace DNWS
             // Generate response
             ns.Write(Encoding.UTF8.GetBytes(response.header), 0, response.header.Length);
             if(response.body != null) {
-              ns.Write(response.body, 0, response.body.Length);
-              /*var mystr = requestStr.Split(Environment.NewLine);
-              string browser = mystr[5].Remove(0, 12);
-              //from docs.microsoft.com
-              _parent.Log("Client IP: " + IPAddress.Parse (((IPEndPoint)_client.RemoteEndPoint).Address.ToString ()));  
-              _parent.Log("Client Port: " + ((IPEndPoint)_client.RemoteEndPoint).Port.ToString ()); 
-              _parent.Log("Browser Information: " + browser);
-              _parent.Log(mystr[8]);
-              _parent.Log(mystr[7] + Environment.NewLine);*/             
+              ns.Write(response.body, 0, response.body.Length);            
             }
 
             // Shuting down
