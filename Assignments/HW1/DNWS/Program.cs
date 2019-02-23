@@ -83,7 +83,6 @@ namespace DNWS
         protected Socket _client;
         protected Program _parent;
         protected Dictionary<string, PluginInfo> plugins;
-        protected Thread thread;
 
         /// <summary>
         /// Constructor, set the client socket and parent ref, also init stat hash
@@ -107,11 +106,6 @@ namespace DNWS
                 plugins[section["Path"]] = pi;
             }
         }
-
-        public void getThread(Thread t){
-            thread = t;
-        }
-
         /// <summary>
         /// Get a file from local harddisk based on path
         /// </summary>
@@ -174,8 +168,6 @@ namespace DNWS
 
             request = new HTTPRequest(requestStr);
             request.addProperty("RemoteEndPoint", _client.RemoteEndPoint.ToString());
-            request.addProperty("ThreadId", thread.ManagedThreadId.ToString());
-            request.addProperty("ThreadStatus", thread.ThreadState.ToString());
 
             // We can handle only GET now
             if(request.Status != 200) {
@@ -298,10 +290,6 @@ namespace DNWS
                     // Single thread
                     Thread my_thread = new Thread(new ThreadStart(hp.Process));                      
                     my_thread.Start();
-                    hp.getThread(my_thread);
-                    //_parent.Log("Thread status: " + my_thread.ThreadState);
-                    //_parent.Log("Thread ID: " + my_thread.ManagedThreadId);
-                    //hp.Process();
                     // End single therad
                 }
                 catch (Exception ex)

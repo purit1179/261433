@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Net.Sockets;
+using System.Threading;
 using System.Net;
 using System.IO;
 
@@ -30,8 +31,8 @@ namespace DNWS
       sb.Append("Browser Information: " + request.getPropertyByKey("User-Agent") + "</br></br>");
       sb.Append("Accept-Language: " + request.getPropertyByKey("Accept-Language") + "</br></br>");
       sb.Append("Accept-Encoding: " + request.getPropertyByKey("Accept-Encoding") + "</br></br>");
-      sb.Append("Thread ID: " + request.getPropertyByKey("ThreadId") + "</br></br>");
-      sb.Append("Thread status: " + request.getPropertyByKey("ThreadStatus"));
+      sb.Append("Thread ID: " + Thread.CurrentThread.ManagedThreadId + "</br></br>");
+      sb.Append("Thread status: " + Thread.CurrentThread.ThreadState);
       sb.Append("</body></html>");
       response = new HTTPResponse(200);
       response.body = Encoding.UTF8.GetBytes(sb.ToString());
