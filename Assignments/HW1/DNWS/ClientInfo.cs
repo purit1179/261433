@@ -18,6 +18,7 @@ namespace DNWS
     {
       throw new NotImplementedException();
     }
+
     public HTTPResponse GetResponse(HTTPRequest request)
     {
       HTTPResponse response = null;
@@ -28,7 +29,9 @@ namespace DNWS
       sb.Append("Client Port: " + port + "</br></br>");
       sb.Append("Browser Information: " + request.getPropertyByKey("User-Agent") + "</br></br>");
       sb.Append("Accept-Language: " + request.getPropertyByKey("Accept-Language") + "</br></br>");
-      sb.Append("Accept-Encoding: " + request.getPropertyByKey("Accept-Encoding"));
+      sb.Append("Accept-Encoding: " + request.getPropertyByKey("Accept-Encoding") + "</br></br>");
+      sb.Append("Thread ID: " + request.getPropertyByKey("ThreadId") + "</br></br>");
+      sb.Append("Thread status: " + request.getPropertyByKey("ThreadStatus"));
       sb.Append("</body></html>");
       response = new HTTPResponse(200);
       response.body = Encoding.UTF8.GetBytes(sb.ToString());
