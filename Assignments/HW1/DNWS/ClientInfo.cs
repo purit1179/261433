@@ -5,6 +5,7 @@ using System.Net.Sockets;
 using System.Threading;
 using System.Net;
 using System.IO;
+using System.Diagnostics;
 
 namespace DNWS
 {
@@ -32,7 +33,8 @@ namespace DNWS
       sb.Append("Accept-Language: " + request.getPropertyByKey("Accept-Language") + "</br></br>");
       sb.Append("Accept-Encoding: " + request.getPropertyByKey("Accept-Encoding") + "</br></br>");
       sb.Append("Thread ID: " + Thread.CurrentThread.ManagedThreadId + "</br></br>");
-      sb.Append("Thread status: " + Thread.CurrentThread.ThreadState);
+      //from https://stackoverflow.com/questions/15381174/how-to-count-the-amount-of-concurrent-threads-in-net-application
+      sb.Append("Amount of thread: " + Process.GetCurrentProcess().Threads.Count); 
       sb.Append("</body></html>");
       response = new HTTPResponse(200);
       response.body = Encoding.UTF8.GetBytes(sb.ToString());
